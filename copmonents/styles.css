@@ -1,3 +1,4 @@
+/*-------- Common -----------*/
 * {
     transition: .5s; /* Время эффекта */
 }
@@ -11,6 +12,43 @@ body {
     justify-content: center;
     align-items: center;
 }
+header {
+    display: flex;
+    justify-content: space-between;
+}
+header h1 {
+    font-size: 1rem;
+    margin: 0 0 .4rem 0;
+}
+header span {
+    color: #5C5F62;
+}
+.blackButton {
+    border: .1rem solid black;
+    background-color: black;
+    color: white;
+    padding: .5rem .7rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+.blackButton:hover {
+    border: .1rem solid black;
+    background-color: white;
+    color: black;
+}
+.violetButton {
+    border: .1rem solid #6F47EB;
+    background-color: #6F47EB;
+    color:  #EEE9FD;
+    padding: .5rem .7rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+.violetButton:hover {
+    border: .1rem solid #6F47EB;
+    background-color: white;
+    color: #6F47EB;
+}
 /*---------- Settings ----------*/
 .settingsBody {
     background-color: white;
@@ -20,13 +58,6 @@ body {
     height: 24rem;
     border-radius: 1rem;
     font-size: .8rem;
-}
-header h1 {
-    font-size: 1rem;
-    margin: 0 0 .4rem 0;
-}
-header span {
-    color: #5C5F62;
 }
 menu {
     color: #5C5F62;
@@ -134,19 +165,6 @@ menu li img {
     border-radius: .5rem;
     padding: 1rem;
 }
-.pcNamePart button {
-    border: .1rem solid black;
-    background-color: black;
-    color: white;
-    padding: .5rem .7rem;
-    border-radius: .5rem;
-    cursor: pointer;
-}
-.pcNamePart button:hover {
-    border: .1rem solid black;
-    background-color: white;
-    color: black;
-}
 .username {
     display: flex;
 }
@@ -158,8 +176,55 @@ menu li img {
     border: .1rem solid lightgray;
     border-right: 0;
 }
-
 #inputUsername {
     border-left: 0;
     border-radius: 0 .5rem .5rem 0;
+}
+/*--------- ContactsCard ---------*/
+.ccBody {
+    background-color: white;
+    padding: 1rem;
+    width: 45rem;
+    height: 41rem;
+    border-radius: 1rem;
+    font-size: .8rem;
+}
+.contactsList {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 90%;
+}
+.userPart {
+    display: flex;
+    align-items: center;
+}
+.contactsList li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ccAvatar {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+}
+.contactItem {
+    margin-left: 1rem;
+}
+.contactItem p {
+    margin: 0 0 .4rem 0;
+    font-size: 130%;
+}
+.contactItem span {
+    color: #5C5F62;
+}
+.ccIcon {
+    margin-top: .3rem;
+    max-height: .6rem;
 }
