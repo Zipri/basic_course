@@ -49,6 +49,11 @@ header span {
     background-color: white;
     color: #6F47EB;
 }
+.smallAvatar {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+}
 /*---------- Settings ----------*/
 .settingsBody {
     background-color: white;
@@ -209,11 +214,6 @@ menu li img {
     align-items: center;
     justify-content: space-between;
 }
-.ccAvatar {
-    height: 3rem;
-    width: 3rem;
-    border-radius: 50%;
-}
 .contactItem {
     margin-left: 1rem;
 }
@@ -227,4 +227,30 @@ menu li img {
 .ccIcon {
     margin-top: .3rem;
     max-height: .6rem;
+}
+/*--------- TaskCard ------------*/
+.tcBody {
+    background-color: white;
+    padding: 1rem;
+    width: 45rem;
+    height: 45rem;
+    border-radius: 1rem;
+    font-size: .8rem;
+}
+.commentForm {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+.commentForm input {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: .5rem;
+    padding: .9rem .6rem;
+    border: .1rem solid lightgray;
+    outline: none;
+    margin-left: 1rem;
+}
+.tcMainTask input {
+    background-color: #6F47EB;
 }
