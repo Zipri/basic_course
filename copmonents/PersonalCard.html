@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PersonalCard</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="pcBody">
+    <header>
+        <h1>Personal Details</h1>
+    </header>
+    <hr/>
+    <form>
+        <div class="pcAvatarPart">
+            <img src=".././assets/pcIcons/Profile%20Image%20Default.png" alt="Avatar">
+            <div class="inputFileWrapper">
+                <input type="file" id="inputFile" class="input inputFile">
+                <label for="inputFile" style="cursor: pointer">
+                    <img src=".././assets/pcIcons/Upload%20Icon.png" alt="upload">
+                    Upload Profile Image
+                </label>
+            </div>
+        </div>
+        <div class="pcNamePart">
+            <div class="pcNameUsername">
+                <div style="width: 48%">
+                    <label for="inputName">Name</label> <br/>
+                    <input type="text" id="inputName" placeholder="Input Your Name">
+                </div>
+                <div style="width: 48%">
+                    <label for="inputUsername">Username</label> <br/>
+                    <div class="username">
+                        <div>Superpage/</div>
+                        <input type="text" id="inputUsername" placeholder="Input Your Username">
+                    </div>
+                </div>
+            </div>
+            <div class="pcDescription">
+                Note : You can change usersname 24 days once, So check the username before you process.
+            </div>
+            <div>
+                <!-- доп. див, чтоб не растягивалась кнопка -->
+                <button type="submit">&check; Save Changes</button>
+            </div>
+        </div>
+    </form>
+</div>
+</body>
+</html>
