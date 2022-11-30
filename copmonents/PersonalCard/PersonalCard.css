@@ -1,0 +1,91 @@
+/*---------- PersonalCard ----------*/
+.pcBody {
+    background-color: white;
+    padding: 1rem;
+    width: 45rem;
+    height: 23rem;
+    border-radius: 1rem;
+    font-size: .8rem;
+}
+.pcAvatarPart {
+    display: flex;
+    align-items: center;
+}
+.pcAvatarPart img {
+    height: 5rem;
+    width: 5rem;
+    margin-right: 1.5rem;
+}
+.inputFileWrapper {
+    position: relative;
+    cursor: pointer;
+    color: #6F47EB;
+    background-color: #EEE9FD;
+    border-radius: .5rem;
+    padding: .7rem 1rem;
+}
+.inputFileWrapper:hover {
+    color: #4410e7;
+    background-color: #f6f3fd;
+}
+.inputFileWrapper img {
+    height: .7rem;
+    width: .8rem;
+    margin: 0 .5rem 0 0;
+}
+.inputFile {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+}
+.pcBody form {
+    height: 90%;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.pcNamePart {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.pcNameUsername {
+    display: flex;
+    justify-content: space-between;
+}
+.pcNamePart label {
+    display: inline-block;
+    margin: .6rem;
+    color: #5C5F62;
+}
+.pcNamePart input {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: .5rem;
+    padding: .6rem;
+    border: .1rem solid lightgray;
+    outline: none;
+}
+.pcDescription {
+    color: #5C5F62;
+    background-color: #EDEDED;
+    border-radius: .5rem;
+    padding: 1rem;
+}
+.username {
+    display: flex;
+}
+.username div {
+    background-color: #EDEDED;
+    border-radius: .5rem 0 0 .5rem;
+    padding: .6rem;
+    color: #5C5F62;
+    border: .1rem solid lightgray;
+    border-right: 0;
+}
+#inputUsername {
+    border-left: 0;
+    border-radius: 0 .5rem .5rem 0;
+}

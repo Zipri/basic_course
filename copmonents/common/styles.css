@@ -1,0 +1,59 @@
+/*-------- Common -----------*/
+* {
+    transition: .5s; /* Время эффекта */
+}
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: darkgray;
+    font-family: sans-serif;
+    /*Для центрирования виджета*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+header h1 {
+    font-size: 1rem;
+    margin: 0 0 .4rem 0;
+}
+header span {
+    color: #5C5F62;
+}
+.blackButton {
+    border: .1rem solid black;
+    background-color: black;
+    color: white;
+    padding: .5rem .7rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+.blackButton:hover {
+    border: .1rem solid black;
+    background-color: white;
+    color: black;
+}
+.violetButton {
+    border: .1rem solid #6F47EB;
+    background-color: #6F47EB;
+    color:  #EEE9FD;
+    padding: .5rem .7rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+.violetButton:hover {
+    border: .1rem solid #6F47EB;
+    background-color: white;
+    color: #6F47EB;
+}
+.smallAvatar {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+}
+.greyColor {
+    color: #5C5F62;
+}

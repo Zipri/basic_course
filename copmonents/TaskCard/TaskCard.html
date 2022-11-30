@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TaskCard</title>
+  <link href="../common/styles.css" rel="stylesheet" type="text/css">
+  <link href="./TaskCard.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="tcBody">
+  <div class="tcMainTask">
+    <div class="leftMainTaskPart">
+      <input type="checkbox" id="mainTaskCheckbox">
+      <label class="fakeBox" for="mainTaskCheckbox">&check;</label>
+      <div>
+        <label for="mainTaskCheckbox">
+          Complete all pages in mobile app design based on Super OS Components
+        </label>
+        <br>
+        <span>
+            <img src="../../assets/contactCard/Icon%20(1).png"
+                 class="ccIcon"
+                 alt="work">
+                25 Aug 2022 - 11:30AM
+        </span>
+        <span style="margin-left: .6rem">
+            <img src="../../assets/contactCard/Icon.png"
+                 class="ccIcon"
+                 alt="work">
+                Design Tag
+        </span>
+        <span style="margin-left: 1rem">
+            ● Created By <a href="https://github.com/Zipri" target="_blank">Johnson</a>
+        </span>
+      </div>
+    </div>
+    <select class="tripleOption">
+      <option value="showAll" selected>●●●</option>
+      <option value="Edit">Edit</option>
+      <option value="Share">Share</option>
+      <option value="Delete">Delete</option>
+    </select>
+  </div>
+  <hr/>
+  <header>
+    <div>
+      <h1>Subtasks</h1>
+      <span>You can add subtasks and assign to others</span>
+    </div>
+    <button class="violetButton">+ Add Sub Task</button>
+  </header>
+  <div>
+    <!-- Здесь список тасков идентичных заглавному -->
+    <br><br><br><br>
+  </div>
+  <div style="height: 40%">
+    <header>
+      <div>
+        <h1>Comments</h1>
+        <span>This task comments from other members</span>
+      </div>
+    </header>
+    <div class="commentsToSubTaskBody">
+      <div class="commentToSubTask">
+        <img src="../../assets/contactCard/Profile%20Image%20(2).png"
+             class="smallAvatar"
+             alt="photo">
+        <div class="commentLabel">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, blanditiis dicta fuga itaque quidem
+            tempore! A ab ad amet distinctio hic in incidunt odio provident veniam voluptates! Ad ex, nam!</p>
+          <span class="greyColor">
+            <a href="https://github.com/Zipri" target="_blank">By Juliana Wills</a> ● 10 minutes ago
+          </span>
+        </div>
+        <select class="tripleOption">
+          <option value="showAll" selected>●●●</option>
+          <option value="Edit">Edit</option>
+          <option value="Share">Share</option>
+          <option value="Delete">Delete</option>
+        </select>
+      </div>
+      <div class="commentToSubTask">
+        <img src="../../assets/contactCard/Profile%20Image%20(4).png"
+             class="smallAvatar"
+             alt="photo">
+        <div class="commentLabel">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci ducimus officiis ratione recusandae
+            repellendus ut voluptate. Ad aperiam beatae dolorem enim eveniet incidunt ipsa mollitia obcaecati, pariatur
+            perspiciatis saepe sunt!</p>
+          <span class="greyColor">
+            <a href="https://github.com/Zipri" target="_blank">By Jonathan James</a> ● 2 hours ago
+          </span>
+        </div>
+        <select class="tripleOption">
+          <option value="showAll" selected>●●●</option>
+          <option value="Edit">Edit</option>
+          <option value="Share">Share</option>
+          <option value="Delete">Delete</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <hr/>
+  <form class="commentForm">
+    <img src="../../assets/contactCard/Profile%20Image%20(6).png"
+         class="smallAvatar"
+         alt="photo">
+    <input placeholder="Write your comments...">
+  </form>
+</div>
+</body>
+</html>

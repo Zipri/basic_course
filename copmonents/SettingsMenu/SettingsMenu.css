@@ -1,0 +1,40 @@
+/*---------- Settings ----------*/
+.settingsBody {
+    background-color: white;
+    padding: 1rem;
+    /*Для удобства перевёл абсолюьтные значения в rem*/
+    width: 18rem;
+    height: 24rem;
+    border-radius: 1rem;
+    font-size: .8rem;
+}
+menu {
+    color: #5C5F62;
+    padding: 0;
+    margin: 0;
+    height: 90%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+menu li {
+    list-style-type: none;
+    padding: .7rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+menu li:hover {
+    background-color: #EDEDED;
+}
+menu li img {
+    max-height: .6rem;
+    margin-right: .5rem;
+}
+.activeItem {
+    background-color: #EDEDED;
+}
+.activeItem:hover {
+    background-color: #a8a8a8;
+    color: #ffffff;
+}
