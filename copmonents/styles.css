@@ -251,6 +251,47 @@ menu li img {
     outline: none;
     margin-left: 1rem;
 }
-.tcMainTask input {
+.tcMainTask {
+    display: flex;
+    justify-content: space-between;
+}
+.tripleOption {
+    border: 0;
+    appearance: none;
+    cursor: pointer;
+    outline: none;
+}
+.tripleOption:hover {
+    color: #6F47EB;
+    font-size: 120%;
+}
+.tcMainTask span {
+    color: #5C5F62;
+}
+.leftMainTaskPart {
+    display: flex;
+    align-items: flex-start;
+}
+.leftMainTaskPart input,label {
+    cursor: pointer;
+}
+/*custom checkbox*/
+#mainTaskCheckbox {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+.fakeBox {
+    margin-right: 1rem;
+    width: 1rem;
+    height: 1rem;
+    background-color: white;
+    border-radius: .25rem;
+    text-align: center;
+    color: white;
+    border: .1rem solid #6F47EB;
+}
+#mainTaskCheckbox:checked+.fakeBox{
     background-color: #6F47EB;
 }
+
