@@ -5,13 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="393c22a6-ec59-4a6c-89dd-1ce879f8c0a7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/copmonents/ContactsCard/ContactsCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/copmonents/ContactsCard/ContactsCard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/copmonents/ContactsCard/ContactsCard.html" beforeDir="false" afterPath="$PROJECT_DIR$/copmonents/ContactsCard/ContactsCard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/copmonents/PersonalCard/PersonalCard.html" beforeDir="false" afterPath="$PROJECT_DIR$/copmonents/PersonalCard/PersonalCard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/copmonents/SettingsMenu/SettingsMenu.html" beforeDir="false" afterPath="$PROJECT_DIR$/copmonents/SettingsMenu/SettingsMenu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/copmonents/TaskCard/TaskCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/copmonents/TaskCard/TaskCard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/copmonents/TaskCard/TaskCard.html" beforeDir="false" afterPath="$PROJECT_DIR$/copmonents/TaskCard/TaskCard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/copmonents/common/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/copmonents/common/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/HomePage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/HomePage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/copmonents/ContactsCard/ContactsCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/ContactsCard/ContactsCard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/copmonents/ContactsCard/ContactsCard.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/ContactsCard/ContactsCard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/copmonents/PersonalCard/PersonalCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/PersonalCard/PersonalCard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/copmonents/PersonalCard/PersonalCard.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/PersonalCard/PersonalCard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/copmonents/SettingsMenu/SettingsMenu.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/SettingsMenu/SettingsMenu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/copmonents/SettingsMenu/SettingsMenu.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/SettingsMenu/SettingsMenu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/copmonents/TaskCard/TaskCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/TaskCard/TaskCard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/copmonents/TaskCard/TaskCard.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/TaskCard/TaskCard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/copmonents/common/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/common/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,8 +75,8 @@
       <recent name="$PROJECT_DIR$/copmonents/ContactsCard" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.TaskCard.html">
-    <configuration name="ContactsCard.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/basic_course/copmonents/ContactsCard/ContactsCard.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.HomePage.html">
+    <configuration name="HomePage.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/basic_course/docs/HomePage.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="PersonalCard.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/basic_course/copmonents/PersonalCard/PersonalCard.html" useBuiltInWebServerPort="true">
@@ -88,11 +93,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.HomePage.html" />
         <item itemvalue="JavaScript Debug.TaskCard.html" />
         <item itemvalue="JavaScript Debug.TaskCard.html (1)" />
         <item itemvalue="JavaScript Debug.SettingsMenu.html" />
         <item itemvalue="JavaScript Debug.PersonalCard.html" />
-        <item itemvalue="JavaScript Debug.ContactsCard.html" />
       </list>
     </recent_temporary>
   </component>
@@ -107,7 +112,7 @@
       <workItem from="1669710475636" duration="17837000" />
       <workItem from="1669791838828" duration="8490000" />
       <workItem from="1669808199480" duration="422000" />
-      <workItem from="1669808628687" duration="1510000" />
+      <workItem from="1669808628687" duration="3412000" />
     </task>
     <servers />
   </component>
