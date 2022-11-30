@@ -57,3 +57,7 @@ header span {
 .greyColor {
     color: #5C5F62;
 }
+.smallIcons {
+    margin-top: .3rem;
+    max-height: .6rem;
+}
