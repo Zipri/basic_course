@@ -1,4 +1,9 @@
 /*-------- Common -----------*/
+:root {
+    --theme-color: #6F47EB;
+    --second-theme-color: #5C5F62;
+}
+
 * {
     transition: .5s; /* Время эффекта */
 }
@@ -21,7 +26,7 @@ header h1 {
     margin: 0 0 .4rem 0;
 }
 header p {
-    color: #5C5F62;
+    color: var(--second-theme-color);
 }
 hr {
     border: 0;
@@ -42,17 +47,17 @@ hr {
     color: black;
 }
 .violetButton {
-    border: .1rem solid #6F47EB;
-    background-color: #6F47EB;
+    border: .1rem solid var(--theme-color);
+    background-color: var(--theme-color);
     color:  #EEE9FD;
     padding: .5rem .7rem;
     border-radius: .5rem;
     cursor: pointer;
 }
 .violetButton:hover {
-    border: .1rem solid #6F47EB;
+    border: .1rem solid var(--theme-color);
     background-color: white;
-    color: #6F47EB;
+    color: var(--theme-color);
 }
 .smallAvatar {
     height: 3rem;
@@ -60,7 +65,7 @@ hr {
     border-radius: 50%;
 }
 .greyColor {
-    color: #5C5F62;
+    color: var(--second-theme-color);
 }
 .smallIcons {
     margin-top: .3rem;

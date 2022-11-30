@@ -35,11 +35,11 @@
     outline: none;
 }
 .tripleOption:hover {
-    color: #6F47EB;
+    color: var(--theme-color);
     font-size: 120%;
 }
 .tcMainTask span {
-    color: #5C5F62;
+    color: var(--second-theme-color);
 }
 .leftMainTaskPart {
     display: flex;
@@ -62,13 +62,13 @@
     border-radius: .25rem;
     text-align: center;
     color: white;
-    border: .1rem solid #6F47EB;
+    border: .1rem solid var(--theme-color);
 }
 .fakeBox:hover {
     background-color: #c5bbe3;
 }
 .customCheckbox:checked+.fakeBox{
-    background-color: #6F47EB;
+    background-color: var(--theme-color);
 }
 /*end*/
 .commentsToSubTaskBody {

@@ -35,5 +35,5 @@
     font-size: 130%;
 }
 .contactItem span {
-    color: #5C5F62;
+    color: var(--second-theme-color);
 }

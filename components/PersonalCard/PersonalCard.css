@@ -19,7 +19,7 @@
 .inputFileWrapper {
     position: relative;
     cursor: pointer;
-    color: #6F47EB;
+    color: var(--theme-color);
     background-color: #EEE9FD;
     border-radius: .5rem;
     padding: .7rem 1rem;
@@ -58,7 +58,7 @@
 .pcNamePart label {
     display: inline-block;
     margin: .6rem;
-    color: #5C5F62;
+    color: var(--second-theme-color);
 }
 .pcNamePart input {
     width: 100%;
@@ -69,7 +69,7 @@
     outline: none;
 }
 .pcDescription {
-    color: #5C5F62;
+    color: var(--second-theme-color);
     background-color: #EDEDED;
     border-radius: .5rem;
     padding: 1rem;
@@ -81,7 +81,7 @@
     background-color: #EDEDED;
     border-radius: .5rem 0 0 .5rem;
     padding: .6rem;
-    color: #5C5F62;
+    color: var(--second-theme-color);
     border: .1rem solid lightgray;
     border-right: 0;
 }

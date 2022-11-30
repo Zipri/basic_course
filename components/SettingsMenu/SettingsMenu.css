@@ -9,7 +9,7 @@
     font-size: .8rem;
 }
 menu {
-    color: #5C5F62;
+    color: var(--second-theme-color);
     padding: 0;
     margin: 0;
     height: 90%;

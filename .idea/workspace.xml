@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="393c22a6-ec59-4a6c-89dd-1ce879f8c0a7" name="Changes" comment="" />
+    <list default="true" id="393c22a6-ec59-4a6c-89dd-1ce879f8c0a7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ContactsCard/ContactsCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/ContactsCard/ContactsCard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/PersonalCard/PersonalCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/PersonalCard/PersonalCard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/SettingsMenu/SettingsMenu.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/SettingsMenu/SettingsMenu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/TaskCard/TaskCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/TaskCard/TaskCard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/common/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/common/styles.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,11 +62,11 @@
       <recent name="$PROJECT_DIR$/copmonents/TaskCard" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/copmonents/TaskCard" />
       <recent name="$PROJECT_DIR$/copmonents/SettingsMenu" />
       <recent name="$PROJECT_DIR$/copmonents/PersonalCard" />
       <recent name="$PROJECT_DIR$/copmonents/common" />
-      <recent name="$PROJECT_DIR$/copmonents/ContactsCard" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
@@ -99,7 +106,7 @@
       <workItem from="1669710475636" duration="17837000" />
       <workItem from="1669791838828" duration="8490000" />
       <workItem from="1669808199480" duration="422000" />
-      <workItem from="1669808628687" duration="7547000" />
+      <workItem from="1669808628687" duration="8972000" />
     </task>
     <servers />
   </component>
