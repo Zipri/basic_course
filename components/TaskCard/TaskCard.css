@@ -1,4 +1,7 @@
 /*--------- TaskCard ------------*/
+.tripleOption {
+    font-size: 80%;
+}
 .tcBody {
     background-color: white;
     padding: 1rem;
@@ -60,6 +63,9 @@
     text-align: center;
     color: white;
     border: .1rem solid #6F47EB;
+}
+.fakeBox:hover {
+    background-color: #c5bbe3;
 }
 .customCheckbox:checked+.fakeBox{
     background-color: #6F47EB;

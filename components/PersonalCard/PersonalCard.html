@@ -2,29 +2,35 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>PersonalCard</title>
+  <title>Personal Card</title>
+  <link rel="stylesheet" href="../common/reset.css">
   <link href="../common/styles.css" rel="stylesheet" type="text/css">
   <link href="./PersonalCard.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<div class="pcBody">
+<main class="pcBody">
+
   <header>
     <h1>Personal Details</h1>
   </header>
+
   <hr/>
+
   <form>
-    <div class="pcAvatarPart">
+
+    <article class="pcAvatarPart">
       <img src="../../assets/pcIcons/Profile%20Image%20Default.png" alt="Avatar">
-      <div class="inputFileWrapper">
+      <section class="inputFileWrapper">
         <input type="file" id="inputFile" class="input inputFile">
         <label for="inputFile" style="cursor: pointer">
           <img src="../../assets/pcIcons/Upload%20Icon.png" alt="upload">
           Upload Profile Image
         </label>
-      </div>
-    </div>
-    <div class="pcNamePart">
-      <div class="pcNameUsername">
+      </section>
+    </article>
+
+    <article class="pcNamePart">
+      <section class="pcNameUsername">
         <div style="width: 48%">
           <label for="inputName">Name</label> <br/>
           <input type="text" id="inputName" placeholder="Input Your Name">
@@ -36,16 +42,18 @@
             <input type="text" id="inputUsername" placeholder="Input Your Username">
           </div>
         </div>
-      </div>
-      <div class="pcDescription">
+      </section>
+      <p class="pcDescription">
         Note : You can change usersname 24 days once, So check the username before you process.
-      </div>
-      <div>
+      </p>
+      <section>
         <!-- доп. див, чтоб не растягивалась кнопка -->
         <button type="submit" class="blackButton">&check; Save Changes</button>
-      </div>
-    </div>
+      </section>
+    </article>
+
   </form>
-</div>
+
+</main>
 </body>
 </html>

@@ -2,61 +2,66 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>TaskCard</title>
+  <title>Task Card</title>
+  <link rel="stylesheet" href="../common/reset.css">
   <link href="../common/styles.css" rel="stylesheet" type="text/css">
   <link href="./TaskCard.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<div class="tcBody">
-  <div class="tcMainTask">
-    <div class="leftMainTaskPart">
+<main class="tcBody">
+
+  <article class="tcMainTask">
+    <section class="leftMainTaskPart">
       <input type="checkbox" id="mainTaskCheckbox" class="customCheckbox">
       <label class="fakeBox" for="mainTaskCheckbox">&check;</label>
-      <div>
+      <section>
         <label for="mainTaskCheckbox">
           Complete all pages in mobile app design based on Super OS Components
         </label>
         <br>
         <span>
-            <img src="../../assets/contactCard/Icon%20(1).png"
-                 class="smallIcons"
-                 alt="work">
-                25 Aug 2022 - 11:30AM
+          <img src="../../assets/contactCard/Icon%20(1).png"
+               class="smallIcons"
+               alt="work">
+          25 Aug 2022 - 11:30AM
         </span>
         <span style="margin-left: .6rem">
-            <img src="../../assets/contactCard/Icon.png"
-                 class="smallIcons"
-                 alt="work">
-                Design Tag
+          <img src="../../assets/contactCard/Icon.png"
+               class="smallIcons"
+               alt="work">
+          Design Tag
         </span>
         <span style="margin-left: 1rem">
             ● Created By <a href="https://github.com/Zipri" target="_blank">Johnson</a>
         </span>
-      </div>
-    </div>
+      </section>
+    </section>
     <select class="tripleOption">
-      <option value="showAll" selected>●●●</option>
+      <option value="showAll" selected disabled>●●●</option>
       <option value="Edit">Edit</option>
       <option value="Share">Share</option>
       <option value="Delete">Delete</option>
     </select>
-  </div>
+  </article>
+
   <hr/>
+
   <header>
-    <div>
+    <article>
       <h1>Subtasks</h1>
-      <span>You can add subtasks and assign to others</span>
-    </div>
+      <p>You can add subtasks and assign to others</p>
+    </article>
     <button class="violetButton">+ Add Sub Task</button>
   </header>
 
 
-  <div class="subTasksMain">
-    <div class="tcMainTask">
-      <div class="leftMainTaskPart">
+  <article class="subTasksMain">
+
+    <section class="tcMainTask">
+      <section class="leftMainTaskPart">
         <input type="checkbox" id="checkBox2" class="customCheckbox">
         <label class="fakeBox" for="checkBox2">&check;</label>
-        <div>
+        <section>
           <label for="checkBox2">
             Design first 5 screens and get approve from developers
           </label>
@@ -73,15 +78,15 @@
                  alt="work">
                 No tag
         </span>
-        </div>
-      </div>
+        </section>
+      </section>
       <select class="tripleOption">
         <option value="showAll" selected>●●●</option>
         <option value="Edit">Edit</option>
         <option value="Share">Share</option>
         <option value="Delete">Delete</option>
       </select>
-    </div>
+    </section>
 
 
     <div class="tcMainTask">
@@ -178,63 +183,73 @@
         <option value="Delete">Delete</option>
       </select>
     </div>
-  </div>
+  </article>
 
 
-  <div style="height: 40%">
+  <article style="height: 40%">
+
     <header>
-      <div>
+      <article>
         <h1>Comments</h1>
-        <span>This task comments from other members</span>
-      </div>
+        <p>This task comments from other members</p>
+      </article>
     </header>
-    <div class="commentsToSubTaskBody">
-      <div class="commentToSubTask">
+
+    <article class="commentsToSubTaskBody">
+
+      <section class="commentToSubTask">
         <img src="../../assets/contactCard/Profile%20Image%20(2).png"
              class="smallAvatar"
              alt="photo">
-        <div class="commentLabel">
+        <section class="commentLabel">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, blanditiis dicta fuga itaque quidem
             tempore! A ab ad amet distinctio hic in incidunt odio provident veniam voluptates! Ad ex, nam!</p>
           <span class="greyColor">
             <a href="https://github.com/Zipri" target="_blank">By Juliana Wills</a> ● 10 minutes ago
           </span>
-        </div>
+        </section>
         <select class="tripleOption">
           <option value="showAll" selected>●●●</option>
           <option value="Edit">Edit</option>
           <option value="Share">Share</option>
           <option value="Delete">Delete</option>
         </select>
-      </div>
-      <div class="commentToSubTask">
+      </section>
+
+      <section class="commentToSubTask">
         <img src="../../assets/contactCard/Profile%20Image%20(4).png"
              class="smallAvatar"
              alt="photo">
-        <div class="commentLabel">
+        <section class="commentLabel">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci ducimus officiis ratione recusandae
             repellendus ut voluptate. Ad aperiam beatae dolorem enim eveniet incidunt ipsa mollitia obcaecati, pariatur
             perspiciatis saepe sunt!</p>
           <span class="greyColor">
             <a href="https://github.com/Zipri" target="_blank">By Jonathan James</a> ● 2 hours ago
           </span>
-        </div>
+        </section>
         <select class="tripleOption">
           <option value="showAll" selected>●●●</option>
           <option value="Edit">Edit</option>
           <option value="Share">Share</option>
           <option value="Delete">Delete</option>
         </select>
-      </div>
-    </div>
-  </div>
+
+      </section>
+
+    </article>
+
+  </article>
+
   <hr/>
+
   <form class="commentForm">
     <img src="../../assets/contactCard/Profile%20Image%20(6).png"
          class="smallAvatar"
          alt="photo">
     <input placeholder="Write your comments...">
   </form>
-</div>
+
+</main>
 </body>
 </html>

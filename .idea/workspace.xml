@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="393c22a6-ec59-4a6c-89dd-1ce879f8c0a7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/common/reset.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ContactsCard/ContactsCard.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/ContactsCard/ContactsCard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/PersonalCard/PersonalCard.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/PersonalCard/PersonalCard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/SettingsMenu/SettingsMenu.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/SettingsMenu/SettingsMenu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/TaskCard/TaskCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/TaskCard/TaskCard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/TaskCard/TaskCard.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/TaskCard/TaskCard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/common/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/common/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +108,7 @@
       <workItem from="1669710475636" duration="17837000" />
       <workItem from="1669791838828" duration="8490000" />
       <workItem from="1669808199480" duration="422000" />
-      <workItem from="1669808628687" duration="3992000" />
+      <workItem from="1669808628687" duration="6578000" />
     </task>
     <servers />
   </component>
