@@ -4,9 +4,6 @@
     --second-theme-color: #5C5F62;
 }
 
-* {
-    transition: .5s; /* Время эффекта */
-}
 body {
     margin: 0;
     height: 100vh;
