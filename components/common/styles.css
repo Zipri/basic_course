@@ -30,8 +30,9 @@ header p {
 }
 hr {
     border: 0;
-    border-top: .1rem solid darkgray;
+    border-top: .1rem solid #b2b2b2;
     margin: .5rem 0;
+    border-radius: .1rem;
 }
 .blackButton {
     border: .1rem solid black;
