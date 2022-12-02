@@ -317,4 +317,10 @@ body {
     border-left: .1rem solid black;
 }
 
+.footer__icon {
+    width: 1.6rem;
+    height: 1.6rem;
+    margin-right: 1.4rem;
+}
+
 
