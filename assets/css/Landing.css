@@ -1,0 +1,278 @@
+:root {
+    --text-color: #373737;
+    --second-text-color: #5B5B5B;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Medium.ttf") format("truetype");
+}
+
+* {
+    /* размер шрифта в 10 px,
+    чтобы от него было удобнее
+    переводить в rem */
+    font-size: 10px;
+    /* Подключим шрифт */
+    font-family: 'Poppins';
+    font-style: normal;
+    color: var(--text-color);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    padding: 0 1rem;
+
+    background-color: #5C5F62;
+}
+
+/* common css props */
+.flex_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex_wrap_none {
+    display: flex;
+    align-items: center;
+}
+
+.flex_column_wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex_column_wrap_between {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.grid_wrap_2x3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5.8rem;
+}
+
+.header_size_s {
+    font-weight: 700;
+}
+
+.header_size_m {
+    font-size: 4.1rem;
+    font-weight: 700;
+    line-height: 6.15rem;
+}
+
+.header_size_l {
+    font-size: 6.3rem;
+    font-weight: 900;
+    line-height: 9.4rem;
+}
+
+.information_block {
+    font-size: 2.2rem;
+    color: var(--second-text-color);
+    line-height: 3.6rem;
+    margin: .7rem 0 6.2rem 0;
+}
+
+.button_simple {
+    cursor: pointer;
+    font-size: 1.7rem;
+    transition: .5s;
+    border-radius: .7rem;
+    padding: .5rem;
+}
+
+.button_simple:hover {
+    background-color: var(--text-color);
+    color: white;
+}
+
+.button_violet {
+    background-color: #7273F1;
+    border-radius: 3.2rem;
+    padding: 1.2rem 3.4rem;
+    color: white;
+    transition: .5s;
+    font-size: 2.2rem;
+    cursor: pointer;
+}
+
+.button_violet:hover {
+    background-color: #b5b5ff;
+    color: var(--text-color);
+}
+
+.button_store {
+    cursor: pointer;
+}
+
+.page {
+    height: 80.5rem;
+}
+
+.page__right_section_position {
+    width: 59.5rem;
+    position: relative;
+    float: right;
+    margin-top: 21.1rem;
+    margin-right: 11.2rem;
+}
+
+.page__left_section_position {
+    width: 59.5rem;
+    position: relative;
+    float: left;
+    margin-top: 20.9rem;
+    margin-left: 14.8rem;
+}
+.description_text {
+    color: #37474F;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+}
+/* ---------------- */
+
+.container {
+    max-width: 144rem;
+    width: 100%;
+    height: 650.7rem;
+
+    background-color: white;
+}
+
+.header {
+    padding: 4.4rem 15rem;
+}
+
+.header__logo {
+    margin-left: 2rem;
+    font-size: 2.4rem;
+    line-height: 4rem;
+}
+
+.header__navigation_buttons {
+    width: 33rem;
+}
+
+.first_page {
+    background-image: url("../images/landing/Group 10.svg");
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 99.5rem;
+}
+
+.first_page__information_section {
+    width: 55.8rem;
+    margin-left: 14.8rem;
+    padding-top: 7.2rem;
+}
+
+.first_page__sale_part {
+    margin-top: 11rem;
+    color: var(--second-text-color);
+    opacity: 0.59;
+    font-size: 1.8rem;
+}
+
+.second_page_background {
+    background-image: url("../images/landing/iphone-white.svg");
+}
+
+.third_page_background {
+    background-image: url("../images/landing/iphone-white (1).svg");
+}
+
+.fourth_page_background {
+    background-image: url("../images/landing/iphone-white (2).svg");
+}
+
+.last_page {
+    background-image: url("../images/landing/Working with team.svg");
+    background-position: center 14rem;
+    background-repeat: no-repeat;
+    height: 141.2rem;
+}
+
+.last_page__information_section {
+    text-align: center;
+}
+
+.last_page__information_section__header {
+    padding-top: 76.1rem;
+    width: 71.8rem;
+    font-size: 3.7rem;
+}
+
+.last_page__information_section__info {
+    padding-top: 12.3rem;
+    width: 114.3rem;
+}
+
+.last_page__information_section__buttons {
+    width: 45.5rem;
+    padding-bottom: 12.4rem;
+}
+
+.members_page {
+    height: 107.3rem;
+    background-color: #FAFAFA;
+}
+
+.members_page__header_position {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.members_page__area {
+    width: 110.9rem;
+}
+
+.members_page__area_item:first-child {
+    background-color: rgba(96, 114, 226, 0.128196);
+}
+.members_page__area_item:nth-child(2) {
+    background: rgba(152, 43, 190, 0.128196);
+}
+.members_page__area_item:nth-child(3) {
+    background: rgba(226, 98, 98, 0.128196);
+}
+.members_page__area_item:nth-child(4) {
+    background: rgba(70, 194, 125, 0.128196);
+}
+.members_page__area_item:nth-child(5) {
+    background: rgba(67, 77, 144, 0.128196);
+}
+.members_page__area_item:last-child {
+    background: rgba(231, 153, 65, 0.128196);
+}
+
+.members_page__area_item {
+    border-radius: 1.1rem;
+    width: 33.1rem;
+    height: 31rem;
+    padding: 2.1rem;
+}
+
+.members_page__area_item__name {
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.members_page__area_item__job {
+    color: #37474F;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+
+.avatar_margin {
+    margin-right: 2.2rem;
+}
+
+
