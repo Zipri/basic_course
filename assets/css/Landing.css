@@ -286,6 +286,11 @@ body {
     width: 33.1rem;
     height: 31rem;
     padding: 2.1rem;
+    transition: .5s;
+}
+
+.members_page__area_item:hover {
+    box-shadow: 1rem 1rem 1rem gray;
 }
 
 .members_page__area_item__name {
