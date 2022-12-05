@@ -8,6 +8,16 @@
     src: url("../fonts/Poppins-Medium.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: "Poppins-black";
+    src: url("../fonts/Poppins-Black.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Poppins-bold";
+    src: url("../fonts/Poppins-Bold.ttf") format("truetype");
+}
+
 * {
     /* размер шрифта в 10 px,
     чтобы от него было удобнее
@@ -69,12 +79,14 @@ body {
 }
 
 .header_size_m {
+    font-family: 'Poppins-bold';
     font-size: 4.1rem;
     font-weight: 700;
     line-height: 6.15rem;
 }
 
 .header_size_l {
+    font-family: 'Poppins-black';
     font-size: 6.3rem;
     font-weight: 900;
     line-height: 9.4rem;
@@ -161,6 +173,7 @@ body {
 }
 
 .header__logo {
+    font-family: 'Poppins-bold';
     margin-left: 2rem;
     font-size: 2.4rem;
     line-height: 4rem;
