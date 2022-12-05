@@ -18,6 +18,11 @@
     src: url("../fonts/Poppins-Bold.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: "Poppins-regular";
+    src: url("../fonts/Poppins-Regular.ttf") format("truetype");
+}
+
 * {
     /* размер шрифта в 10 px,
     чтобы от него было удобнее
@@ -95,8 +100,8 @@ body {
 .information_block {
     font-size: 2.2rem;
     color: var(--second-text-color);
-    line-height: 3.6rem;
-    margin: .7rem 0 6.2rem 0;
+    line-height: 4rem;
+    margin: .7rem 0 3rem 0;
 }
 
 .button_simple {
@@ -233,13 +238,14 @@ body {
 }
 
 .last_page__information_section__info {
-    padding-top: 12.3rem;
+    padding-top: 11.3rem;
+    padding-bottom: 5rem;
     width: 114.3rem;
 }
 
 .last_page__information_section__buttons {
     width: 45.5rem;
-    padding-bottom: 12.4rem;
+
 }
 
 .members_page {
@@ -294,7 +300,7 @@ body {
 }
 
 .avatar_margin {
-    margin-right: 2.2rem;
+    margin: 0 2.2rem 1.1rem 1.1rem;
 }
 
 .footer {
@@ -318,7 +324,7 @@ body {
 
 .footer__list_item_text {
     color: #544837;
-    font-weight: 400;
+    font-family: 'Poppins-regular';
     font-size: 1.8rem;
     line-height: 3.5rem;
     transition: .5s;
@@ -334,6 +340,10 @@ body {
     width: 1.6rem;
     height: 1.6rem;
     margin-right: 1.4rem;
+}
+
+.footer__social_list {
+    margin-right: 3rem;
 }
 
 
