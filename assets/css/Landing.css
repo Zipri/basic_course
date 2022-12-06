@@ -24,36 +24,6 @@
     src: url("../fonts/Poppins-Regular.ttf") format("truetype");
 }
 
-@media (max-width: 1282px) {
-    .first_page {
-        background-size: 60%;
-    }
-    .second_page_background,
-    .fourth_page_background{
-        background-position-x: 60%;
-    }
-
-}
-
-@media (max-width: 1129px) {
-    .first_page {
-        background-size: 50%;
-    }
-    .second_page_background,
-    .fourth_page_background {
-        background-position-x: 70%;
-    }
-}
-
-@media (max-width: 1000px) {
-    .first_page {
-        background-size: 40%;
-    }
-    .second_page_background,
-    .fourth_page_background {
-        background-position-x: 80%;
-    }
-}
 
 * {
     /* размер шрифта в 10 px,
@@ -346,14 +316,14 @@ body {
 
 .footer {
     border-top: .1rem solid rgba(188, 208, 229, 0.496913);;
-    width: 119.9rem;
+
     height: 34.7rem;
     margin: 13.6rem 12rem 0;
     padding-top: 5.4rem;
 }
 
-.footer__list_section {
-    width: 72.2rem;
+.footer__center_list_item {
+    margin: 0 12.5rem;
 }
 .footer__list_header {
     color: #2F281E;
@@ -387,4 +357,41 @@ body {
     margin-right: 3rem;
 }
 
+@media (max-width: 1282px) {
+    .first_page {
+        background-size: 60%;
+    }
+    .second_page_background,
+    .fourth_page_background{
+        background-position-x: 60%;
+    }
+    .footer__center_list_item {
+        margin: 0 10rem;
+    }
+}
 
+@media (max-width: 1129px) {
+    .first_page {
+        background-size: 50%;
+    }
+    .second_page_background,
+    .fourth_page_background {
+        background-position-x: 70%;
+    }
+    .footer__center_list_item {
+        margin: 0 5.5rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    .first_page {
+        background-size: 40%;
+    }
+    .second_page_background,
+    .fourth_page_background {
+        background-position-x: 80%;
+    }
+    .footer__center_list_item {
+        margin: 0 2rem;
+    }
+}
