@@ -39,7 +39,6 @@
 body {
     display: flex;
     justify-content: center;
-
     background-color: #5C5F62;
 }
 
@@ -207,19 +206,22 @@ body {
 }
 
 .second_page_background {
-    background-image: url("../images/landing/iphone-white.svg");
+    background-image: url("../images/landing/Group 12.svg");
     background-repeat: no-repeat;
+    background-position: 15% bottom;
     background-color: var(--backgorund-color);
 }
 
 .third_page_background {
-    background-image: url("../images/landing/iphone-white (1).svg");
+    background-image: url("../images/landing/Group 13.svg");
+    background-position: 90% bottom;
     background-repeat: no-repeat;
 }
 
 .fourth_page_background {
-    background-image: url("../images/landing/iphone-white (2).svg");
+    background-image: url("../images/landing/Group 14.svg");
     background-repeat: no-repeat;
+    background-position: 15% bottom;
     background-color: var(--backgorund-color);
 }
 
