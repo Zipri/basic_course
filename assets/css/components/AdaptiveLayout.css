@@ -1,0 +1,123 @@
+:root {
+    --theme-color: #6F47EBFF;
+    --text-color: #373737;
+    --second-text-color: #5B5B5B;
+    --backgorund-color: #FAFAFA;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../../fonts/Poppins-Medium.ttf") format("truetype");
+}
+
+* {
+    /* размер шрифта в 10 px,
+    чтобы от него было удобнее
+    переводить в rem */
+    font-size: 10px;
+    /* Подключим шрифт */
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+    font-style: normal;
+    color: var(--text-color);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    padding: 0 1rem;
+
+    background-color: #5C5F62;
+}
+
+.container {
+    max-width: 144rem;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 1.5rem;
+}
+
+/* ---------- ---------- FLEX ---------- ---------- */
+
+.flex {
+    display: flex;
+}
+
+.flex_center_between {
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ---------- ---------- COMMON ---------- ----------*/
+
+.button_white {
+    background-color: white;
+    border-radius: 1rem;
+    border: .1rem solid white;
+    padding: .7rem;
+    white-space: nowrap;
+    transition: .5s;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.button_white:hover {
+    background-color: var(--theme-color);
+    color: white;
+}
+
+.button_violet {
+    background-color: var(--theme-color);
+    border-radius: 1rem;
+    border: .1rem solid white;
+    padding: .7rem;
+    white-space: nowrap;
+    transition: .5s;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: white;
+}
+.button_violet:hover {
+    background-color: white;
+    color: var(--text-color);
+}
+
+.margin_m {
+    margin: 0 1.5rem;
+}
+
+/* ---------- ---------- HEADER ---------- ---------- */
+
+.header {
+    background-color: var(--theme-color);
+    width: 100%;
+    border-radius: 1.5rem;
+    padding: 1rem 2rem;
+}
+
+.header__logo {
+    font-size: 3.3rem;
+    font-style: italic;
+    font-variant: small-caps;
+    color: white;
+}
+
+/* ---------- ---------- @media ---------- ---------- */
+
+/*@media (max-width: 1282px) {*/
+/*    * {*/
+/*        font-size: 8px;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 1129px) {*/
+/*    * {*/
+/*        font-size: 6px;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 1000px) {*/
+/*    * {*/
+/*        font-size: 4px;*/
+/*    }*/
+/*}*/
