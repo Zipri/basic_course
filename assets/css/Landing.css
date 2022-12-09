@@ -379,6 +379,10 @@ body {
     .footer__center_list_item {
         margin: 0 10rem;
     }
+    .last_page__information_section__buttons {
+        margin: 0;
+        padding: 15rem 20rem 3rem;
+    }
     .grid_wrap {
         gap: 1rem;
     }
@@ -396,6 +400,10 @@ body {
     .footer__center_list_item {
         margin: 0 5.5rem;
     }
+    .last_page__information_section__buttons {
+        margin: 0;
+        padding: 15rem 20rem 3rem;
+    }
     .grid_wrap {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
@@ -408,19 +416,40 @@ body {
 
 @media (max-width: 1000px) {
     * {
-        font-size: 5rem;
+        font-size: 5px;
+    }
+    .header,
+    .first_page__information_section,
+    .first_page__sale_part,
+    .page__right_section_position,
+    .page__left_section_position,
+    .last_page__information_section__header,
+    .last_page__information_section__info,
+    .footer {
+        margin: 0;
+        padding: 3rem 2rem;
+    }
+    .last_page__information_section__buttons {
+        margin: 0;
+        padding: 15rem 20rem 3rem;
     }
     .first_page {
-        background-size: 40%;
+        background-position-y: bottom;
+        background-size: 30%;
     }
     .second_page_background,
+    .third_page_background,
     .fourth_page_background {
-        background-position-x: -20%;
+        background-size: 0;
     }
-    .third_page_background {
-        background-position-x: 110%;
+    .last_page {
+        background-size: 20%;
+        background-position: center 80%;
     }
     .footer__center_list_item {
-        margin: 0 2rem;
+        margin: 0 1rem;
+    }
+    .footer__social_list {
+        margin: 0;
     }
 }
