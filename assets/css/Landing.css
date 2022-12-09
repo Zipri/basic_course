@@ -107,7 +107,7 @@ body {
 .information_block {
     font-size: 2.2rem;
     color: var(--second-text-color);
-    line-height: 4rem;
+    line-height: 36px;
     margin: .7rem 0 3rem 0;
 }
 
