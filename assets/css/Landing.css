@@ -78,11 +78,12 @@ body {
     justify-content: space-between;
 }
 
-.grid_wrap {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 5.8rem;
+.flex_one {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+    justify-content: center;
 }
 
 .header_size_s {
@@ -261,6 +262,10 @@ body {
     margin: 10rem 0 10rem;
 }
 
+.members_page__area {
+    padding: 0 16.7rem;
+}
+
 .members_page__area_item:first-child {
     background-color: rgba(96, 114, 226, 0.128196);
 }
@@ -383,9 +388,6 @@ body {
         margin: 0;
         padding: 15rem 20rem 3rem;
     }
-    .grid_wrap {
-        gap: 1rem;
-    }
 }
 
 @media (max-width: 1129px) {
@@ -403,11 +405,6 @@ body {
     .last_page__information_section__buttons {
         margin: 0;
         padding: 15rem 20rem 3rem;
-    }
-    .grid_wrap {
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        gap: 2rem;
     }
     .members_page__header_position {
         margin: 1rem 0 1rem;
